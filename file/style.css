@@ -1,0 +1,257 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: #222;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  background-color: #F5F5F5;
+}
+
+.container-1 {
+  /* border: 5px solid ; */
+  /* min-width: 10vh; */
+  display: grid;
+  /* gap:90px; */
+
+  /* grid-template-rows:  */
+
+
+}
+
+
+.box1 {
+  padding: 8rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+  color: black;
+  width: 2px;
+  height: 400px;
+  margin-left: 90px;
+  margin-top: 2px;
+  /* background-color: #FAEEE2; */
+  border-radius: 20px;
+
+
+}
+.cell-1-1{
+  width: 500px;
+  height: 20px;
+}
+
+.box2 {
+  padding: 8rem;
+  background: #dedede;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+  color: black;
+  /* column-gap: 20px; */
+  background-color: hsl(39, 100%, 71%);
+  border-radius: 20px;
+  width: 2px;
+  height: 430px;
+  margin-left: 90px;
+  margin-top: 10px;
+
+
+}
+
+.container-2 {
+  display: grid;
+  gap: 10px;
+}
+
+.box3 {
+  padding: 8rem;
+  background: #dedede;
+  /* text-transform: uppercase; */
+  font-weight: bold;
+  text-align: center;
+  color: black;
+  /* column-gap: 20px; */
+  background-color: #7651DC;
+  border-radius: 20px;
+  width: 550px;
+  /* height: 350px; */
+  margin-left: 57px;
+  margin-top: 2px;
+
+}
+
+.box4 {
+  padding: 8rem;
+  background: #dedede;
+  /* text-transform: uppercase; */
+  font-weight: bold;
+  text-align: center;
+  color: black;
+  /* column-gap: 20px; */
+  background-color: #DCD1FC;
+  border-radius: 20px;
+  width: 200px;
+  height: 550px;
+  margin-left: 50px;
+  /* margin-top: px; */
+
+}
+
+.container-plus {
+  display: flex;
+  flex-direction: row;
+}
+
+.box5 {
+
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+}
+
+.cell5 {
+  padding: 8rem;
+  background: #dedede;
+  font-weight: bold;
+  text-align: center;
+  color: black;
+  background-color: #FFFFFF;
+  border-radius: 20px;
+  width: 100px;
+  height: 50px;
+  margin-top: 20px;
+  margin-left: 50px;
+
+
+}
+
+.cell6 {
+  padding: 8rem;
+  background: #dedede;
+  font-weight: bold;
+  text-align: center;
+  color: black;
+  background-color: hsl(39, 100%, 71%);
+  border-radius: 20px;
+  width: 50px;
+  height: 50px;
+  margin-left: 50px;
+  margin-top: 20px;
+
+
+}
+
+.container-4 {
+  display: flex;
+  flex-direction: row;
+}
+
+.container-5 {
+  display: grid;
+  grid-column: auto;
+
+}
+
+.cell8 {
+  padding: 8rem;
+  background: #dedede;
+  font-weight: bold;
+  text-align: center;
+  color: black;
+  background-color: #8f3333;
+  border-radius: 20px;
+  width: 50px;
+  height: 0px;
+  margin-left: 50px;
+}
+
+.cell9 {
+  padding: 8rem;
+  background: #dedede;
+  font-weight: bold;
+  text-align: center;
+  color: black;
+  background-color:#FFFFFF;
+  border-radius: 20px;
+  width: 50px;
+  height: 50px;
+  margin-left: 50px;
+  margin-top: 20px;
+
+
+}
+
+.cell10 {
+  padding: 8rem;
+  background: #dedede;
+  /* text-transform: uppercase; */
+  font-weight: bold;
+  text-align: center;
+  color: black;
+  /* column-gap: 20px; */
+  background-color: #7651DC;
+  border-radius: 20px;
+  width: 550px;
+  /* height: 350px; */
+  margin-left: 57px;
+  margin-top: 2px;
+
+
+}
+
+.box8 {
+  padding: 8rem;
+  background: #dedede;
+  /* text-transform: uppercase; */
+  font-weight: bold;
+  text-align: center;
+  color: black;
+  /* column-gap: 20px; */
+  background-color: #7651DC;
+  border-radius: 20px;
+  width: 550px;
+  /* height: 350px; */
+  margin-left: 57px;
+  margin-top: 2px;
+}
+
+.cell7 {
+  padding: 8rem;
+  background: #dedede;
+  /* text-transform: uppercase; */
+  font-weight: bold;
+  text-align: center;
+  color: black;
+  /* column-gap: 20px; */
+  background-color: #7651DC;
+  border-radius: 20px;
+  width: 550px;
+  /* height: 350px; */
+  margin-left: 57px;
+  margin-top: 2px;
+}
+
+.slove {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  position: relative;
+}
+
+.container-3{
+  position: absolute;
+  right: 0;
+}

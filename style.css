@@ -36,14 +36,14 @@ body {
 .box1 {
   padding: 8rem;
   text-transform: uppercase;
-  font-weight: bold;
-  text-align: center;
+  /* font-weight: bold; */
+  /* text-align: center; */
   color: black;
   width: 2px;
   height: 400px;
   margin-left: 90px;
-  margin-top: 2px;
-  /* background-color: #FAEEE2; */
+  /* margin-top: 2px; */
+  background-color: #FAEEE2;
   border-radius: 20px;
 
 
@@ -254,4 +254,14 @@ body {
 .container-3{
   position: absolute;
   right: 0;
+}
+.well{
+  /* height:100px; */
+  width:100px;
+  padding:1px;
+
+
+}
+.hi{
+  color: #7651DC;
 }
